@@ -6506,7 +6506,7 @@
       <description>Custom Message for sending target depth information in camera frame</description>
       <field type="float" name="depth" units="m">Depth Information</field>
     </message>
-    <message id='228' name='PIXEL_INFO'>
+    <message id='228' name="PIXEL_INFO">
       <description>Custom Message for sending target's information in the camera frame</description>
       <field type="float" name="pixel_u" units="pixels">Horizontal Pixel Value</field>
       <field type="float" name="pixel_v" units="pixels">Vertical Pixel Value</field>
