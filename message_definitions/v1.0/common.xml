@@ -6516,6 +6516,12 @@
       <field type="float" name="Az_cmd" units="m/s²">Normal acceleration</field>
       <field type="float" name="Ay_cmd" units="m/s²">Lateral acceleration</field>
     </message>
+    <message id="230" name="TARGET_POS">
+      <description>Custom Message for Target Position in NED</description>
+      <field type="float" name="Target_X" units="m">Target Position in X</field>
+      <field type="float" name="Target_Y" units="m">Target Position in Y</field>
+      <field type="float" name="Target_Z" units="m">Target Position in Z</field>
+    </message>
     <!-- 192 MAG_CAL_REPORT imported from ardupilotmega.xml -->
     <message id="192" name="MAG_CAL_REPORT">
       <description>Reports results of completed compass calibration. Sent until MAG_CAL_ACK received.</description>
